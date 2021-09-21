@@ -50,4 +50,5 @@ RSpec.describe "ユーザーログイン機能", type: :system do
     # サインインページに戻ってきていることを確認する
     expect(current_path).to eq new_user_session_path
   end
+  
 end
