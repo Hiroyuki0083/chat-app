@@ -23,5 +23,4 @@ RSpec.describe "チャットルームの削除機能", type: :system do
     # トップページに遷移していることを確認する
     expect(current_path).to eq root_path
   end
-  
 end

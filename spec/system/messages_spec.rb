@@ -101,5 +101,6 @@ RSpec.describe "メッセージ投稿機能", type: :system do
       # 送信した画像がブラウザに表示されていることを確認する
       expect(page).to have_selector("img")
     end
+    
   end
 end
