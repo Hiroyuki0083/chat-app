@@ -3,5 +3,4 @@ FactoryBot.define do
     association :user
     association :room
   end
-  
 end
